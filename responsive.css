@@ -1,0 +1,114 @@
+@media (max-width: 768px) {
+    main{
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        }
+    body {
+        display: flex;
+        margin:0;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .h1_deploy{
+        font-size: 32px;
+    }
+    .textarea{
+        margin-left: 8px;
+        width: 300px;
+    }
+    .p{
+        font-size: 13px;
+    }
+
+    .botoes button{
+        width:650px;
+        height:67px;
+        top: 870px;
+        left: 40px;
+        gap: 24px;
+        font-size: 16px;
+    }
+    .container_criptografia{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        
+    }
+    .container{
+        flex-direction: column;
+        margin: 32px;
+    }
+
+    .output{
+    display: flex;
+    left: 40px;
+    border-radius: 32px ;
+    opacity: 0px;
+    height:300px;
+    width: 650px;
+
+    .lupa_imagem{
+        display: none;
+
+    }
+
+    .display_area_text{
+        height:100%;
+        display: flex;
+    }
+
+    .textoFinal{
+        display:flex;
+        margin-top: 0;
+        font-size: 24px;
+    }
+
+    }
+}
+
+@media (max-width:425px){
+
+    .h1_deploy{
+        font-size: 20px;
+        
+    }
+    .textarea{
+        font-size: 32px;
+    }
+
+    .botoes button {
+        display: flex;
+        flex-direction: column;
+        width:300px;
+        height: 80px;
+        padding: 0;
+        text-align: center;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #btn-criptografar{
+        display: flex;
+        text-align: center;
+    }
+
+    .botoes{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 360px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .output{
+        margin-top: 33px;
+        width: 360px;
+    }
+}
